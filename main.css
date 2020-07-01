@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    height: 90%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    border-right: 4px solid grey;
+    
+}
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+}
+.nav-link {
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    
+}
+
+
+nav li {
+    border-top: 2px solid black;
+    height: 10%;
+    padding: 20px;
+}
+nav h1 {
+    text-align: center;
+    
+    
+    
+}
+
+main section {
+    padding-left: 40px;
+}
+
+.last-section {
+    margin-bottom: 200px;
+}
+
+code {
+    margin: 20px 20px 0px 20px;
+}
+a {
+    color: black;
+}
+@media (max-width: 900px) {
+    body {
+        font-size: smaller;
+    }
+}
